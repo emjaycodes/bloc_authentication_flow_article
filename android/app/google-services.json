@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1062913759006",
+    "project_id": "bloc-auth-flow",
+    "storage_bucket": "bloc-auth-flow.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1062913759006:android:f15e62988d6d30c55e9b0f",
+        "android_client_info": {
+          "package_name": "com.example.bloc_authentication_flow"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOKdsNFx_HfdjbYTDZGCnLA65Bv7SUxjA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
