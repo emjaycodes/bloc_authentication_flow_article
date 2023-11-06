@@ -32,7 +32,7 @@ class _SignupScreenState extends State<SignupScreen> {
     return Scaffold(
       appBar: AppBar(
         title: const Text(
-          'Login to Your Account',
+          'Create an account',
           style: TextStyle(
             color: Colors.deepPurple,
           ),
@@ -43,7 +43,7 @@ class _SignupScreenState extends State<SignupScreen> {
         padding: const EdgeInsets.all(16.0),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
-          children: <Widget>[
+          children:[
             const SizedBox(height: 20),
             const Text('Email address'),
             const SizedBox(height: 10),
@@ -110,7 +110,7 @@ class _SignupScreenState extends State<SignupScreen> {
                       state is! AuthenticationLoadingState
                             ? 'Signup'
                             : '.......',
-                      style: TextStyle(
+                      style: const TextStyle(
                         fontSize: 20,
                       ),
                     ),
