@@ -21,8 +21,8 @@ class AuthService {
       if (firebaseUser != null) {
         return UserModel(
           id: firebaseUser.uid,
-          email: firebaseUser.email ?? '',
-          displayName: firebaseUser.displayName ?? '',
+          email: firebaseUser.email,
+          displayName: firebaseUser.displayName,
         );
       }
     } on FirebaseAuthException catch (e) {
