@@ -9,9 +9,10 @@ part 'authentication_event.dart';
 part 'authentication_state.dart';
 
 
-final AuthService authService = AuthService();
 
 class AuthenticationBloc extends Bloc<AuthenticationEvent, AuthenticationState> {
+  final AuthService authService = AuthService();
+
   AuthenticationBloc() : super(AuthenticationInitialState()) {
     on<AuthenticationEvent>((event, emit) {});
 
